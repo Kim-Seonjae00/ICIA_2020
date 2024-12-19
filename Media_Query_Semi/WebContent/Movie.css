@@ -1,0 +1,237 @@
+@charset "UTF-8";
+
+	body{
+    	background-color:  rgb(245, 246, 247);
+	}
+		
+	#banner {
+	    display: block;
+	    height: 79px;
+	    width: 100%;
+	}
+	#closeBtn{
+		cursor:pointer;
+		font-size:20px;
+		padding-left:955px;
+	}
+	#header{
+		width:100%;
+		padding-top:10px;
+		padding-bottom:20px;
+		text-align:center;
+		font-weight:bold;
+		background-color:black;
+		margin:0px;
+	}
+	#form_Join, #main_modify{
+		width:990px;
+		margin:auto;
+		text-align:center;
+	}
+	.inputBox{
+		width:400px;
+		border:1px solid lightgray;
+		margin:auto;
+		height:31px;
+		background-color:white;	
+		padding:5px;
+		margin-bottom:40px;
+	}
+	.required{
+		width:395px;
+		height:30px;
+		float:left;
+		border:none;
+		padding-left:5px;
+		font-size:15px;
+	}
+	
+	.subject{
+		font-size:20px;
+	}
+	.addressBox{
+		width:400px;
+		height:100px;
+		border:1px solid lightgray;
+		margin:auto;
+		margin-bottom:40px;
+	}
+	#sample4_postcode{
+		width:290px;
+		height:30px;
+	}
+	#addressBtn{
+		width:105px;
+		height:30px;
+		float:left;
+		border:none;
+	}
+	#sample4_roadAddress{
+		width:195px;
+		height:30px;
+		float:left;
+	}
+	#sample4_jibunAddress{
+		width:195px;
+		height:30px;
+		float:left;
+	}
+	#sample4_detailAddress{
+		width:195px;
+		height:30px;
+		float:left;
+	}
+	#sample4_extraAddress{
+		width:195px;
+		height:30px;
+		float:left;
+	}
+	#buttons{
+		width:412px;
+		margin:auto;
+	}
+	.checkInput{
+		width:360px;
+	}
+	.check{
+		width:35px;
+		float:left;
+		font-size:25px;
+		text-align:center;
+	}
+	#overlapBtn input{
+		float:left;
+		width:70px;
+		height:45px;
+	}
+	
+	#footer{
+		margin-top:60px;
+	    width: 100%;
+	    height: 200px;
+	    background-color:white;
+	    text-align: center;
+	    color: gray;
+	    padding-top: 30px;
+	}
+	#joinBtn{
+		width:100%;
+		height:40px;
+		background-color:black;
+		color:white;
+		font-size:20px;
+		border:none;
+		cursor:pointer
+	}
+	
+	#top_nav{
+		width:980px;
+		margin:auto;
+		text-align:center;
+		font-size:20px;
+	}
+	.tab_menu{
+		text-decoration:none;
+		color:gray;
+		margin-left:10px;
+		margin-right:10px;
+	}
+	.tab_menu:hover{
+		color:white;
+	}
+	#form_Login{
+		width:980px;
+		margin:auto;
+		text-align:center;
+	}
+	.blank{
+		color:red;
+		display:none;
+	}
+	#loginBtn{
+		width:410px;
+		height:50px;
+		border:none;
+		background-color:black;
+		color:white;
+		font-size:20px;
+	}
+	#top_nav_myPage{
+		width:990px;
+		margin-left:35px;
+		border:1px solid lightgray;
+		background-color:white;	
+		margin-right:300px;
+		float:left;
+	}
+	
+	#top_nav_myPage .myPageBox{
+		width:328px;
+		height:200px;
+		float:left;
+		text-align:center;
+		border:1px;
+	}
+	.center{
+		border-right:1px solid lightgray !important;
+		border-left:1px solid lightgray !important;
+	}
+	
+	#top_nav_myPage .myPageBox h2{
+		margin-bottom:8px;
+	}
+	#top_nav_myPage .myPageBox .mIcon{
+		color:gray;
+		margin:10px;
+		font-size:50px;
+	}
+	#side_nav_myPage{
+		width:200px;
+		border:1px solid lightgray;
+		padding:5px;
+		margin-left:200px;
+		float:left;
+		background-color:white;
+	}
+	#main_modify{
+		border-top:1px solid lightgray;
+		margin-top:230px;
+		width:990px;
+	}
+	#main_memberDelete{
+		width:990px;
+		margin:auto;
+		margin-top:230px;
+		border-top:1px solid lightgray;
+	}
+	.category{
+		width:100px;
+	}
+	#main_write{
+		width:990px;
+		margin:auto;
+		text-align:center;
+		border-top:1px solid lightgray;
+		padding-top:15px;
+	}
+	.writeRequired{
+	width:702px;
+	height:30px;
+	border:none;
+	padding-left:5px;
+	font-size:15px;
+	float:left;
+	}
+	.writeRequired2{
+		width:700px;
+		height:500px;
+		border:none;
+		padding-left:5px;
+		font-size:15px;
+		float:left;
+		resize: none;
+	}
+	#writeBoard_form tr, #writeBoard_form td, #writeBoard_form{
+		border:1px solid black;
+		border-collapse:collapse;
+	}
